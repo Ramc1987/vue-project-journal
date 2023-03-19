@@ -1,8 +1,5 @@
-vue
-
 <template>
   <nav class="v-nav">
-    <p>{{ title }}</p>
     <v-nav-list />
   </nav>
 </template>
@@ -15,9 +12,7 @@ export default {
     vNavList,
   },
   data() {
-    return {
-      title: 'Helloi',
-    };
+    return {};
   },
 };
 </script>

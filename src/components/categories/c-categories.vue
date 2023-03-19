@@ -1,17 +1,20 @@
 <template>
   <div class="c-categories">
-    <h2>Привет</h2>
+    <c-ethnic-cossacks />
   </div>
 </template>
 
 <script>
+import cEthnicCossacks from './ethnic-cossacks/c-ethnic-cossacks';
 export default {
   name: 'c-categories',
   props: {},
-  components: {},
+  components: {
+    cEthnicCossacks,
+  },
   data() {
     return;
   },
 };
 </script>
-<style lang=""></style>
+<style></style>

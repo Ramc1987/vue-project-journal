@@ -1,6 +1,5 @@
 <template>
   <header class="v-header">
-    <p>{{ title }}</p>
     <v-nav />
   </header>
 </template>
@@ -15,13 +14,11 @@ export default {
     vNav,
   },
   data() {
-    return {
-      title: 'hello world',
-    };
+    return {};
   },
 };
 </script>
-<style lang="scss">
+<style>
 .v-header {
   width: 100%;
   background-color: tomato;

@@ -1,13 +1,12 @@
 <template>
   <div class="v-main-wrapper">
-    <p>{{ title }}</p>
     <v-header />
     <c-categories />
   </div>
 </template>
 
 <script>
-import vHeader from './v-header';
+import vHeader from './header/v-header';
 import cCategories from './categories/c-categories';
 
 export default {
@@ -18,9 +17,7 @@ export default {
   },
   props: {},
   data() {
-    return {
-      title: 'main wrapper',
-    };
+    return {};
   },
 };
 </script>
@@ -31,7 +28,7 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 900px;
+  width: 100%;
   margin: 0 auto;
 }
 </style>
