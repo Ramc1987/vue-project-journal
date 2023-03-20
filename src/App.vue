@@ -6,15 +6,15 @@
 
 <script>
 export default {
-  name: "App",
+  name: 'App',
   components: {
     vMainWrapper,
   },
 };
-import vMainWrapper from "./components/v-main-wrapper";
+import vMainWrapper from './components/v-main-wrapper';
 </script>
 
-<style>
+<style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

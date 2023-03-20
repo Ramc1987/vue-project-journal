@@ -1,7 +1,9 @@
 <template>
   <div class="v-main-wrapper">
-    <v-header />
-    <c-categories />
+    <div class="container">
+      <v-header />
+      <c-categories />
+    </div>
   </div>
 </template>
 

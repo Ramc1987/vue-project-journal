@@ -31,8 +31,10 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
+@import '../../../assets/scss/styles.scss';
 .c-card-1 {
+  padding: $padding;
   width: 200px;
   height: auto;
   background-color: rgb(227, 216, 216);
